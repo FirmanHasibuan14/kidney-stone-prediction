@@ -12,7 +12,7 @@ class PredictionRequest(BaseModel):
 
 class PredictionResponse(BaseModel):
     target: int
-    probability: int
+    probability: float
 
 class PredictionHistoryBase(PredictionRequest):
     target: int
