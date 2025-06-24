@@ -38,4 +38,4 @@ class MLService:
             "engineered_features": processed_data.to_dict(orient='records')[0]
         }
     
-ml_service = MLService(model_path="/ML/Model/kidney_stone_xgb.pkl")
+ml_service = MLService(model_path="../ML/Model/kidney_stone_xgb.pkl")
